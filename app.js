@@ -1,7 +1,7 @@
 // Nós vamos manipular o HTML com o JavaScript
 
 let listaDeNumerosSorteados = []; // para criar uma lista é necessário que coloque o colchetes. A intenção dessa lista é colocar os números que foram sorteados para que não sejam sorteados novamente.
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio()
 let tentativas = 1;
 
@@ -15,7 +15,7 @@ function exibirTextoNaTela (tag, texto) {
 
 function exibirMensagemIncial () {
     exibirTextoNaTela('h1', 'Jogo do número secreto')
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10')
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100')
 }
 
 exibirMensagemIncial();
